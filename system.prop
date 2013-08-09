@@ -1,0 +1,7 @@
+#
+# system.prop for nx40x
+#
+
+rild.libpath=/system/lib/libril-qc-qmi-1.so
+rild.libargs=-d /dev/smd0
+
