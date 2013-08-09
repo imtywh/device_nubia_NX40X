@@ -69,7 +69,8 @@ PRODUCT_COPY_FILES += \
     device/nubia/NX40X/root/fstab.qcom:root/fstab.qcom \
     device/nubia/NX40X/root/ueventd.qcom.rc:root/ueventd.qcom.rc \
     device/nubia/NX40X/root/init.qcom.early_boot.sh:root/init.qcom.early_boot.sh \
-    device/nubia/NX40X/root/init.qcom.ril.sh:root/init.qcom.ril.sh 
+    device/nubia/NX40X/root/init.qcom.ril.sh:root/init.qcom.ril.sh \
+    device/nubia/NX40X/root/init.nubia.usb.rc:root/init.nubia.usb.rc 
 #    device/nubia/NX40X/root/init.usb.rc:root/init.usb.rc 
 #    device/nubia/NX40X/root/init.nubia.ums.sh:root/init.nubia.ums.sh \
 #    device/nubia/NX40X/root/init.nubia.ums_adb.sh:root/init.nubia.ums_adb.sh
