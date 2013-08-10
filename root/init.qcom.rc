@@ -25,8 +25,8 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 #ztemt add by chengdongsheng for new pid
-#import init.qcom.usb.rc
-import init.nubia.usb.rc
+import init.qcom.usb.rc
+#import init.nubia.usb.rc
 import init.target.rc
 
 on init
@@ -142,8 +142,8 @@ on boot
     write /proc/sys/net/netfilter/nf_conntrack_tcp_be_liberal 1
 
 # import cne init file
-on post-fs
-    export LD_PRELOAD /system/lib/libNimsWrap.so
+#on post-fs
+#    export LD_PRELOAD /system/lib/libNimsWrap.so
 
 # msm specific files that need to be created on /data
 on post-fs-data
